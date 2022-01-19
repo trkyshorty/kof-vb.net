@@ -2766,7 +2766,7 @@ Public Class Client
 
                 'Dim ArcheryMem As Long = VirtualAllocEx(_Handle, 0, 1, MEM_COMMIT Or MEM_RESERVE, &H40)
 
-                '''InjectPatch(ArcheryMem, "608B0D" &
+                'InjectPatch(ArcheryMem, "608B0D" &
                 'AlignDWORD(KO_PTR_PKT) & "6A1B68" & AlignDWORD(ArcheryMem + &H100) & "BF" & AlignDWORD(KO_PTR_SND) & "FFD761608B0D" &
                 'AlignDWORD(KO_PTR_PKT) & "6A1768" & AlignDWORD(ArcheryMem + &H120) & "BF" & AlignDWORD(KO_PTR_SND) & "FFD761608B0D" &
                 'AlignDWORD(KO_PTR_PKT) & "6A1B68" & AlignDWORD(ArcheryMem + &H140) & "BF" & AlignDWORD(KO_PTR_SND) & "FFD761C3")
